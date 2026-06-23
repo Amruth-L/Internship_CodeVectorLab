@@ -1,23 +1,23 @@
-# ProductVault
+ ProductVault
 
 ProductVault is a full-stack, modern web application for managing and browsing a product catalog. The project features a sleek, responsive user interface with real-time search, category filtering, and sorting, powered by a robust Express and PostgreSQL backend.
 
-## Architecture
+ Architecture
 
 The project has been refactored into a decoupled architecture with cleanly separated frontend and backend environments.
 
-- **/frontend**: Contains the React application powered by Vite and styled purely with Tailwind CSS v4.
-- **/backend**: Contains the Node.js/Express server and PostgreSQL database integration logic.
+- /frontend : Contains the React application powered by Vite and styled purely with Tailwind CSS v4.
+- /backend : Contains the Node.js/Express server and PostgreSQL database integration logic.
 
 ---
 
-## 🚀 Getting Started
+ Getting Started
 
-### Prerequisites
+ Prerequisites
 Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 You will also need a PostgreSQL database. Ensure the `DATABASE_URL` is set inside `backend/.env`.
 
-### 1. Backend Setup
+1. Backend Setup
 
 Open a terminal and navigate to the backend folder:
 ```bash
@@ -34,7 +34,7 @@ Set up the database schema:
 npm run migrate
 ```
 
-*(Optional)* Seed the database with sample data:
+(Optional) Seed the database with sample data:
 ```bash
 npm run seed
 ```
@@ -47,7 +47,7 @@ npm start
 
 ---
 
-### 2. Frontend Setup
+2. Frontend Setup
 
 Open a new terminal and navigate to the frontend folder:
 ```bash
@@ -67,15 +67,15 @@ npm run dev
 
 ---
 
-## 🛠️ Technologies Used
+Technologies Used
 
-### Frontend
-- **React** (v19)
-- **Vite** (v8)
-- **Tailwind CSS** (v4) for utility-first styling.
-- **Lucide React** for modern iconography.
+Frontend
+- React (v19)
+- Vite (v8)
+- Tailwind CSS (v4) for utility-first styling.
+- Lucide React for modern iconography.
 
-### Backend
-- **Node.js** & **Express**
-- **PostgreSQL** (`pg` and `pg-format`)
-- **CORS** & **dotenv**
+Backend
+- Node.js & Express
+- PostgreSQL (`pg` and `pg-format`)
+- CORS & dotenv
