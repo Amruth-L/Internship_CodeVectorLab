@@ -6,8 +6,8 @@ ProductVault is a full-stack, modern web application for managing and browsing a
 
 The project has been refactored into a decoupled architecture with cleanly separated frontend and backend environments.
 
-- /frontend**: Contains the React application powered by Vite and styled purely with Tailwind CSS v4.
-- /backend**: Contains the Node.js/Express server and PostgreSQL database integration logic.
+- /frontend : Contains the React application powered by Vite and styled purely with Tailwind CSS v4.
+- /backend : Contains the Node.js/Express server and PostgreSQL database integration logic.
 
 ---
 
@@ -47,7 +47,7 @@ npm start
 
 ---
 
-### 2. Frontend Setup
+2. Frontend Setup
 
 Open a new terminal and navigate to the frontend folder:
 ```bash
@@ -70,12 +70,12 @@ npm run dev
 Technologies Used
 
 Frontend
-- **React** (v19)
-- **Vite** (v8)
-- **Tailwind CSS** (v4) for utility-first styling.
-- **Lucide React** for modern iconography.
+- React (v19)
+- Vite (v8)
+- Tailwind CSS (v4) for utility-first styling.
+- Lucide React for modern iconography.
 
 Backend
-- **Node.js** & **Express**
-- **PostgreSQL** (`pg` and `pg-format`)
-- **CORS** & **dotenv**
+- Node.js & Express
+- PostgreSQL (`pg` and `pg-format`)
+- CORS & dotenv
