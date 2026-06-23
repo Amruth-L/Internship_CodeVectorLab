@@ -11,10 +11,10 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-const distPath = path.join(__dirname, '..', 'frontend', 'dist');
-const frontendPath = distPath;
+// const distPath = path.join(__dirname, '..', 'frontend', 'dist');
+// const frontendPath = distPath;
 
-app.use(express.static(frontendPath));
+// app.use(express.static(frontendPath));
 
 // Endpoint to get distinct categories
 app.get('/api/categories', async (req, res) => {
@@ -140,9 +140,9 @@ app.get('/api/products', async (req, res) => {
   }
 });
 
-app.get('{*path}', (req, res) => {
-  res.sendFile(path.join(frontendPath, 'index.html'));
-});
+// app.get('{*path}', (req, res) => {
+//   res.sendFile(path.join(frontendPath, 'index.html'));
+// });
 
 // Start the server
 app.listen(PORT, () => {
