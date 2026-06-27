@@ -1,4 +1,5 @@
- ProductVault
+
+ProductVault  Live hosting url : https://amruth-codevector.onrender.com
 
 ProductVault is a full-stack, modern web application for managing and browsing a product catalog. The project features a sleek, responsive user interface with real-time search, category filtering, and sorting, powered by a robust Express and PostgreSQL backend.
 
@@ -22,6 +23,7 @@ You will also need a PostgreSQL database. Ensure the `DATABASE_URL` is set insid
 Open a terminal and navigate to the backend folder:
 ```bash
 cd backend
+backend host url : https://internship-codevectorlab.onrender.com
 ```
 
 Install backend dependencies:
@@ -52,6 +54,7 @@ npm start
 Open a new terminal and navigate to the frontend folder:
 ```bash
 cd frontend
+frontend host url : https://amruth-codevector.onrender.com
 ```
 
 Install frontend dependencies:
